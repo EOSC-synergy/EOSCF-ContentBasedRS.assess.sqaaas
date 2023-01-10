@@ -15,48 +15,48 @@ sqa_criteria:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-apricot-abyssinian.sh
-        container: qc.acc_paltry-saffron-drever
+        - /usr/bin/env sh .sqa/script.woozy-indigo-cassowary.sh
+        container: qc.acc_messy-azure-capybara
   QC.Doc:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-dandelion-monster.sh
-        container: qc.doc_zippy-mauve-bison
+        - /usr/bin/env sh .sqa/script.dorky-blue-mau.sh
+        container: qc.doc_sleazy-denim-boar
       github.com/athenarc/EOSCF-ContentBasedRS git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-sangria-spoonbill.sh
-        container: qc.doc_muzzy-rust-tarsier
+        - /usr/bin/env sh .sqa/script.hasty-myrtle-forest.sh
+        container: qc.doc_hazy-azure-seal
       github.com/athenarc/EOSCF-ContentBasedRS markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-wisteria-guppy.sh
-        container: qc.doc_randy-wisteria-cuscus
+        - /usr/bin/env sh .sqa/script.paltry-linen-wolf.sh
+        container: qc.doc_bluesy-lavender-tortoise
   QC.Lic:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-indigo-rabbit.sh
-        container: qc.lic_skinny-amber-bullfrog
+        - /usr/bin/env sh .sqa/script.flabby-firebrick-dragon.sh
+        container: qc.lic_silly-cinnabar-bongo
   QC.Sec:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-periwinkle-gar.sh
-        container: qc.sec_flaky-fuchsia-gecko
+        - /usr/bin/env sh .sqa/script.woozy-jade-hornet.sh
+        container: qc.sec_snoopy-zucchini-tuatara
   QC.Sty:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-white-dog.sh
-        container: qc.sty_homey-dandelion-sloth
+        - /usr/bin/env sh .sqa/script.homey-orange-salamander.sh
+        container: qc.sty_slimy-buff-barb
       github.com/athenarc/EOSCF-ContentBasedRS hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-saffron-penguin.sh
-        container: qc.sty_flimsy-red-cattle
+        - /usr/bin/env sh .sqa/script.scanty-chestnut-seal.sh
+        container: qc.sty_woolly-sangria-dhole
   QC.Ver:
     repos:
       github.com/athenarc/EOSCF-ContentBasedRS get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-salmon-bear.sh
-        container: qc.ver_sleazy-mauve-scorpion
+        - /usr/bin/env sh .sqa/script.slimy-heliotrope-maltese.sh
+        container: qc.ver_stuffy-periwinkle-dormouse
 timeout: 5400
